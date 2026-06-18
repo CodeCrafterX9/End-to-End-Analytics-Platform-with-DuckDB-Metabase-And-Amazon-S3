@@ -21,3 +21,10 @@ root folder
 -> docker run -it --entrypoint=bash -p 8888:8888 jupyter_image 
 -> jupyter lab --ip=0.0.0.0 --allow-root --no-browser   # for running jupyter lab 
 --> jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token='' --NotebookApp.password=''      #for bypassing token
+
+Dekho docker compose agar chalana hai decker ke liye 
+to 
+-> cd ./setup
+
+fir usse docker iamge banane ke liye :
+docker compose up --build

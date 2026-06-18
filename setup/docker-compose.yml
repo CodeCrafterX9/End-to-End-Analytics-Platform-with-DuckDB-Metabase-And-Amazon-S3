@@ -1,0 +1,16 @@
+services:
+  jupyter:
+    build:
+      context: ./jupyter_lab
+    ports:
+      - "8888:8888"
+    volumes:
+      - ../:/workspace/project
+    command: >
+      jupyter lab
+      --ip=0.0.0.0
+      --allow-root
+      --no-browser
+      --NotebookApp.token='' 
+      --NotebookApp.password=''
+      --notebook-dir=/workspace/project
