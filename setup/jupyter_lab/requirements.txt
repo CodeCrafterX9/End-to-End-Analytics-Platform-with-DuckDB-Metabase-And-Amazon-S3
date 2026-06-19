@@ -6,3 +6,5 @@ numpy
 matplotlib
 seaborn
 sodapy
+pyarrow
+s3fs
