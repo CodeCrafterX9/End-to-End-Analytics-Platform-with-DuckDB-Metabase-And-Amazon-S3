@@ -8,4 +8,4 @@ seaborn
 sodapy
 pyarrow
 s3fs
-awscli
+awscli==1.45.18
