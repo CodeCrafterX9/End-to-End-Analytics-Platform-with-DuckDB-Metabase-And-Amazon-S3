@@ -28,5 +28,26 @@
         "files_created": 6,
         "status": "SUCCESS",
         "duration_seconds": 45.2
+    },
+    {
+        "run_time": "2026-06-28T10:54:49.792666",
+        "load_type": "FULL",
+        "start_date": "2026-03-30T10:54:49.792625",
+        "end_date": "2026-06-28T10:54:49.792625",
+        "rows_loaded": 100757,
+        "files_created": 6,
+        "status": "SUCCESS",
+        "duration_seconds": 33.9
+    },
+    {
+        "run_time": "2026-06-28T11:02:49.375399",
+        "load_type": "FULL",
+        "start_date": "2026-03-30T11:02:49.375319",
+        "end_date": "2026-06-28T11:02:49.375319",
+        "rows_loaded": 100765,
+        "files_created": 6,
+        "status": "SUCCESS",
+        "duration_seconds": 48.75,
+        "last_key": 68745181
     }
 ]
