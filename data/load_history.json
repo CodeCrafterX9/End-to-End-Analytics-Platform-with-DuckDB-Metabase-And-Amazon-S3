@@ -49,5 +49,16 @@
         "status": "SUCCESS",
         "duration_seconds": 48.75,
         "last_key": 68745181
+    },
+    {
+        "run_time": "2026-07-01T05:00:44.993520",
+        "load_type": "FULL",
+        "start_date": "2026-04-02T10:30:44.993371+05:30",
+        "end_date": "2026-07-01T10:30:44.993371+05:30",
+        "rows_loaded": 95586,
+        "files_created": 5,
+        "status": "SUCCESS",
+        "duration_seconds": 37.82,
+        "last_key": 68745181
     }
 ]
