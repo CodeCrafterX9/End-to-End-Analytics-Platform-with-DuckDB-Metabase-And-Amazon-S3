@@ -9,3 +9,4 @@ sodapy
 pyarrow
 s3fs
 awscli==1.45.18
+duckdb
