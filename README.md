@@ -1,4 +1,4 @@
-# End-to-End Analytics Platform with DuckDB & Metabase
+# End-to-End Analytics Platform with DuckDB & Metabase & Amazon S3
 
 An end-to-end analytics platform that ingests NYC 311 complaint data, stores it in an Amazon S3 data lake following the **Bronze → Silver → Gold** architecture, performs data cleaning and modelling using **DuckDB**, and shows business-ready dashboards through **Metabase**.
 
