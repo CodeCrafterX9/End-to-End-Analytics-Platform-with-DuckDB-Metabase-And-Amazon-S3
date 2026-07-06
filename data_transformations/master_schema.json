@@ -42,6 +42,5 @@
     "bridge_highway_direction": "VARCHAR",
     "bridge_highway_segment": "VARCHAR",
     "road_ramp": "VARCHAR",
-    "taxi_company_borough": "VARCHAR",
-    "test": "VARCHAR"
+    "taxi_company_borough": "VARCHAR"
 }
