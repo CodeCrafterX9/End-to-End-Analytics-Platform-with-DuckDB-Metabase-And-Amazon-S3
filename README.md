@@ -44,6 +44,7 @@ The project separates **storage (Amazon S3)** from **compute (DuckDB)**, for sca
 | Data Source      | NYC Open Data (Socrata API) |
 | Language         | Python                      |
 | Data Lake        | Amazon S3                   |
+| Database         | Amazon Glue                 |
 | Compute Engine   | DuckDB                      |
 | File Format      | Parquet                     |
 | BI Tool          | Metabase                    |
