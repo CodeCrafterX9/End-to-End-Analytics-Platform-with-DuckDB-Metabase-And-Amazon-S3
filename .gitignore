@@ -1,1 +1,12 @@
 /setup/.env
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Linux trash
+.Trash-0/
+data_transformations/bronze_staging_db.duckdb

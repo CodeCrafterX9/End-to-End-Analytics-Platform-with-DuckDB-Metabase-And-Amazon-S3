@@ -19,7 +19,7 @@
     "resolution_action_updated_date": "TIMESTAMP",
     "community_board": "VARCHAR",
     "council_district": "INTEGER",
-    "police_precinct": "INTEGER",
+    "police_precinct": "VARCHAR",
     "bbl": "VARCHAR",
     "borough": "VARCHAR",
     "x_coordinate_state_plane": "DOUBLE",
