@@ -9,33 +9,31 @@ The project separates **storage (Amazon S3)** from **compute (DuckDB)**, for sca
 # Architecture
 
 ```text
-                 NYC 311 API
-                      │
-                      ▼
-               Data Ingestion 
-                      │
-                      ▼
-             Amazon S3 (Bronze Layer)
-          Raw Partitioned Parquet Files
-                      │
-                      ▼
-                  DuckDB Engine
-      Cleaning • Validation • Deduplication
-                      │
-                      ▼
-             Amazon S3 (Silver Layer)
-       Cleaned & Standardized Parquet Files
-                      │
-                      ▼
-                  DuckDB Engine
-      Data Modelling • Business Transformations
-                      │
-                      ▼
-              Amazon S3 (Gold Layer)
-      Fact Tables • Dimension Tables • Aggregates
-                      │
-                      ▼
-                  Metabase Dashboard
+NYC 311 API
+      │
+      ▼
+Python Batch Ingestion
+      │
+      ▼
+Amazon S3 (Bronze Layer)
+Raw Partitioned Parquet Files
+      │
+      ▼
+DuckDB Data Processing
+Cleaning • Validation • Standardization
+      │
+      ▼
+Amazon S3 (Silver Layer)
+Cleaned Parquet Files
+      │
+      ▼
+AWS Glue Data Catalog
+Bronze Database
+Silver Database
+      │
+      ▼
+Amazon Athena
+Serverless SQL Queries
 ```
 ---
 # Tech Stack 
@@ -85,3 +83,10 @@ To Setup Environment Using Shell Script
 ```
 Future Scope
 ```
+
+# Upcoming Work
+- Gold Layer creation
+- Dimensional data modeling
+- Metabase dashboard development
+- GitHub Actions automation
+- Incremental data loading
